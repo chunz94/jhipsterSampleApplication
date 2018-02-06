@@ -1,0 +1,18 @@
+entity Unternehmen {
+	name String,
+    steuerID String,
+    
+    
+}
+
+entity Ansprechpartner {
+	vorname String,
+    nachname String,
+    email String,
+    telefonNr String
+}
+
+relationship OneToMany {
+	Unternehmen{ansprechpartner} to Ansprechpartner
+}
+
