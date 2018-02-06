@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "ansprechpartner",
+            "otherEntityName": "ansprechpartner",
+            "otherEntityRelationshipName": "unternehmen"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "steuerID",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180206191359",
+    "entityTableName": "unternehmen",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "jhipsterSampleApplication"
+}

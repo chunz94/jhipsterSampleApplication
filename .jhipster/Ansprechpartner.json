@@ -1,0 +1,36 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "unternehmen",
+            "otherEntityName": "unternehmen",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "vorname",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nachname",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "telefonNr",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180206191400",
+    "entityTableName": "ansprechpartner",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "microserviceName": "jhipsterSampleApplication"
+}
